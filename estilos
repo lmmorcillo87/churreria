@@ -1,0 +1,73 @@
+.fondo {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(192, 122, 30, 0.712);
+}
+
+/* Navbar */
+
+.navbar-dark {
+    background-color: #0e08062d;
+}
+
+
+/* cards */
+
+.borde { 
+    
+    border: 5px solid #48302b;
+}
+
+/* Mapa */
+
+.map-container-4{
+	overflow:hidden;
+	padding-bottom:56.25%;
+	position:relative;
+	height:0;	
+	}
+	.map-container-4 iframe{
+    padding:0 !important;
+	top:0;
+	height:90%;
+	width:100%;
+    position: relative;
+  
+}
+/* fin de mapa */
+
+span {
+color: rgb(52,27,4);
+}
+.texto {
+color:rgb(52,27,4);    
+}
+.trasformacion{
+ transition: all 0.5s linear;
+}
+.trasformacion:hover{
+    transform:scale(0.9)
+}
+
+
+/* Efecto redes sociales */
+
+.redes:hover {
+   
+    transition: all 0.2s linear;
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+
+.redes {
+    
+    overflow:hidden;
+    }   
+
+/* Efecto boton tabla */
+
+.btn-dark {
+
+    background-color:#0e08062d;
+    border-radius: 50px;
+    border: none;
+}
